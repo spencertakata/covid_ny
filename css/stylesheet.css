@@ -1,0 +1,81 @@
+.btn-primary {
+  background-color: #5e3ed6;
+  border: 1px solid #3f3286;
+}
+
+.btn-outline-primary {
+  border: 1px solid #5e3ed6;
+  color: #5e3ed6;
+}
+
+.btn-primary:hover, .btn-outline-primary:hover {
+  background-color: #AA3ED6;
+  border: 1px solid #8F27BA;
+}
+
+/* Backgrounds & Borders */
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-light-purple {
+  background-color: #f9f8ff;
+}
+
+.bg-vivid-purple {
+  background-color: #5e3ed6;
+}
+
+.border-all {
+  border: 1px solid black;
+}
+
+.border-r {
+  border-right: 1px solid black;
+}
+
+.border-b {
+  border-bottom: 1px solid black;
+}
+
+.house-lg {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#nurse-img {
+  background-image: url("../img/nurse.jpg");
+  background-size: cover;
+}
+
+/* Typography */
+body {
+  color: #4f4f4f;
+}
+
+h1, h2, h5 {
+  font-weight: 300;
+}
+
+h3, h4 {
+  font-weight: 700;
+}
+
+.font-white {
+  color: #ffffff;
+}
+
+.font-purple {
+  color: #6f5cb6;
+}
+
+.font-dark-purple {
+  color: #3f3286;
+}
+
+.incomplete {
+  color: red;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

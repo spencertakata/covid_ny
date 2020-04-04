@@ -1,0 +1,78 @@
+<section id="workers">
+    <div class="container-fluid py-4">
+        <div class="row px-5">
+            <div class="col-lg-6 col-sm-12">
+                <h4 class="font-dark-purple" class="font-purple" class="font-purple" class="pb-4">Healthcare Workers</h4>
+            </div>
+        </div>
+        <div class="row px-5">
+              <div class="col-lg-6 col-sm-12">
+                  <h2 class="font-purple">Find temporary alternative housing</h2>
+                  <p>To request access to our listings, submit the form at the link below. Once we've confirmed your information, a link to our available listings will be sent to your email.</p>
+                  <a href="#"><button type="button" class="btn btn-outline-primary my-3">Request access to listings</button></a>
+                  <div class="alert alert-warning" role="alert">
+                      Please note the team running this service has not done any due diligence on any of the offers. We are simply an information service and it is up to each party to meet and screen anyone they would like to enter into a rental agreement with.
+                  </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 px-lg-5">
+                  <p class="pr-5"><strong>In order to verify those requesting access to our listings, we ask for the following personal information:</strong></p>
+                  <ul>
+                      <li>Name</li>
+                      <li>Occupation</li>
+                      <li>Place of work</li>
+                      <li>Email address</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+</section>
+
+
+
+
+
+<!--
+      <section id="owners" class="bg-light-purple px-4 py-5">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                      <h4 class="font-dark-purple" class="font-purple" class="font-purple" class="pb-4">Property Owners</h4>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                      <h2 class="font-purple">House a healthcare worker</h2>
+                      <p>We request that properties be made available to healthcare workers at no cost, but at minimum that rent to be pro-rated weekly to avoid putting a burden on health care workers that are having to pay for their regular mortgage or rent in addition to the cost of separate housing.</p>
+                      <p>If you are unable to provide your property at no cost, we ask that you find a compromise between market rent, and the price that staff can reasonably afford. Our suggested guideline for cost in this scenario is $1000/month for a place that has two beds, inclusive of all utilities. In this example, it could house two healthcare workers at a cost of $500 each per month.</p>
+                  </div>
+                  <div class="col-lg-6 col-sm-12 px-lg-5">
+                      <p><strong>Ideal properties will have the following amenities:</strong></p>
+                      <ul>
+                          <li>Separate entry</li>
+                          <li>Wifi</li>
+                          <li>On-site laundry</li>
+                          <li>Washroom</li>
+                          <li>Kitchen or kitchenette</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="row py-lg-4">
+                  <div class="col-lg-6 col-sm-12">
+                      <h5 class="font-purple"><strong>How do I list my property?</strong></h5>
+                      <p>To list your property, fill in this <a href="#">Google Form</a> with your pertinent property information and wait for calls or emails from health care workers.</p>
+                      <p>Properties must be furnished with a separate entry and wifi, and available at no cost or a significantly reduced cost during this exceptional time. Ideally, properties will have laundry available and be within a short commute of a major healthcare facility.</p>
+                      <a href="#"><button type="button" class="btn btn-outline-primary my-3">List your properties</button></a>
+                  </div>
+                  <div class="col-lg-6 col-sm-12 px-lg-5">
+                      <p><strong>My listing has been filled, how do I pull it?</strong></p>
+                      <ol>
+                          <li>Email <span class="incomplete">********</span></li>
+                          <li>Put "Listing Complete" in the email subject line.</li>
+                          <li>Put your name in the body of the email, and specify the listing you'd like to remove</li>
+                      </ol>
+                      <p>That's it! Thank you for helping to keep a healthcare worker's family safe.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      -->

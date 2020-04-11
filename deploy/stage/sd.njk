@@ -15,37 +15,9 @@
 {% set vancouver = "http://www.healthworkerhousing.ca/vancouver" %}
 {% set toronto = "https://www.yyzhealthcarehousing.com/" %}
 
-{{ city | replace("San Diego", "San&nbsp;Diego") }}
 
 
-    {% block body %}
 
-        {% block navbar %}
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark-purple px-lg-5">
-            <a class="navbar-brand" href="./index.html">Health Worker Housing</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="#workers">For healthcare workers</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="#owners">For property owners</a>
-                    </li>
-                    {#
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="#everyone">For everyone</a>
-                    </li>
-                    #}
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="#faq">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        {% endblock %}
 
         {% block content %}
         <main>
@@ -153,27 +125,6 @@
                 </div>
             </section>
 
-            <!-- For everyone -->
-            {#
-            <section id="everyone">
-                <div class="container-fluid">
-                    <div class="row py-5">
-                        <div class="col-lg-6 col-sm-12 px-5">
-                            <h4 class="font-dark-purple mb-4">For everyone</h4>
-                            <h2 class="font-purple">Resources</h2>
-                            <p>We are also making connections between those who are in need of counseling services with licensed volunteer counselors. We understand there are many services available, but it’s often difficult to ask for help or to find a simple way to receive help. If you’re interested in being paired with a volunteer counselor, please email <a href="{{ mailto_local }}">{{ local_email }}</a>.</p>
-                            <h5 class="font-dark-purple">Share your resources</h5>
-                            <p>Do you have additional resources for food, clothing, or other general resources you'd like to share? Please send them to us with this <a href="#">form</a>.</p>
-                        </div>
-                        <div class="col-lg-6 col-sm-12 px-5 px-lg-4">
-                            <img class="img-fluid" src="./img/hope_v2.jpg" alt="Don't lose hope">
-                            <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@dmey503?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Dan Meyers"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Dan Meyers</span></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            #}
-
             <!-- FAQ -->
 
             <section id="faq" class="bg-light-purple">
@@ -238,4 +189,3 @@
             </div>
         </footer>
         {% endblock %}
-    {% endblock %}

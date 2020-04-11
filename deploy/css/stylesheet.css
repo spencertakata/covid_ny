@@ -12,13 +12,13 @@ a:hover {
 }
 
 /* Nabar */
-.navbar-light .navbar-brand,
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
   color: #ffffff;
 }
 
-.navbar-light .navbar-brand:hover,
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-nav .nav-link:hover {
   color: #00b3ba;
 }
 
@@ -157,9 +157,9 @@ footer {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  #landing h1 {
-    font-size: 2rem;
-  }
+  * #landing
+  *    h1
+  *        font-size: 2rem */
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

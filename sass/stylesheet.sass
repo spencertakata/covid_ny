@@ -1,0 +1,146 @@
+$purple: #6f5cb6
+$vivid-purple: #5e3ed6
+//$light-purple: #f9f8ff
+$light-purple: #ece9ff
+$dark-purple: #3f3286
+$white: #ffffff
+$document-color: #4f4f4f
+$magenta: #AA3ED6
+$magenta-dark: #8F27BA
+$yellow: #ffc107
+$teal: #00b3ba
+$dark-teal: #009399
+$roboto-slab: 'Roboto Slab', 'Georgia', 'Times New Roman', serif
+$lato: 'Lato', 'Roboto', Helvetica, Arial, sans-serif
+
+/* Global styles */
+html
+  scroll-behavior: smooth
+
+a
+    color: $teal
+
+a:hover
+    text-decoration: none
+
+/* Nabar */
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link
+    color: $white
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover
+    color: $teal
+
+/* Jumbotron */
+#landing
+    background: rgb(63,50,134)
+    background: linear-gradient(180deg, rgba(63,50,134,1) 0%, rgba(100,45,158,1) 60%, rgba(143,39,186,1) 100%)
+    h1
+        font-size: 4.5rem
+    .jumbotron
+        background: rgba(0,0,0,0)
+    .lead
+        max-width: 700px
+    button
+        font-family: $roboto-slab
+//
+/* Buttons */
+.btn-primary
+    background-color: $vivid-purple
+    border: 1px solid $dark-purple
+
+.btn-outline-primary
+    border: 1px solid $vivid-purple
+    color: $vivid-purple
+
+.btn-primary:hover, .btn-outline-primary:hover
+    background-color: $magenta
+    border: 1px solid $magenta-dark
+
+.btn-teal
+    background-color: $teal
+    border-radius: 15px
+    font-size: 30px
+
+.btn-teal:hover
+    background-color: #00C4CC
+    color: $white
+
+
+/* Backgrounds & Borders */
+
+.bg-white
+    background-color: #ffffff
+
+.bg-light-purple
+    background-color: $light-purple
+
+.bg-vivid-purple
+    background-color: $vivid-purple
+
+.bg-dark-purple
+    background-color: $dark-purple
+
+.border-all
+    border: 1px solid black
+
+.border-r
+    border-right: 1px solid $dark-purple
+
+.border-b
+    border-bottom : 1px solid $dark-purple
+
+/* Typography */
+
+.slab
+    font-family: $roboto-slab
+
+.lato
+    font-family: $lato
+
+.bold
+    font-weight: bold
+
+body
+    color: $document-color
+    font-family: $lato
+
+h1, h2, h5
+    font-weight: 300
+
+h3, h4
+    font-weight: 700
+
+.font-white
+    color: $white
+
+.font-purple
+    color: $purple
+
+.font-dark-purple
+    color: $dark-purple
+
+.incomplete
+    color: red
+
+.mailto-dark
+    color: $white
+
+.mailto-dark:hover
+    color: $teal
+
+footer
+    font-size: 0.8em
+
+/* Module specific styles */
+#cities
+    h2
+        a:hover
+            padding-left: .25em
+
+
+@media only screen and (max-width: 768px)
+  /* For mobile phones: */
+    #landing
+        h1
+            font-size: 2rem

@@ -1,0 +1,113 @@
+{% extends "boilerplate.njk" %}
+
+{% block body %}
+    {% block navbar %}
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark-purple px-sm-0 px-lg-5">
+        <a class="navbar-brand" href="#">Healthcare Worker Housing</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="#cities">Find your city</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="#faq">FAQ / Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    {% endblock %}
+
+    {% block content %}
+    <main>
+        <section id="landing" class="text-white bg-dark-purple p-lg-5">
+            <div class="jumbotron jumbo-fluid text-center">
+                <h1 class="slab">Health Worker Housing</h1>
+                <p class="lead px-lg-5 m-auto">A volunteer initiative designed to connect <strong>property owners</strong> with <strong>healthcare workers</strong> that are looking for short-term housing during the COVID﻿-﻿19 outbreak</p>
+                <a href="#cities"><button class="btn btn-teal font-white py-2 px-lg-5 px-3 my-lg-5 my-3 slab">Find your city</button></a>
+            </div>
+        </section>
+
+        <!-- Find your city -->
+
+        <section id="cities">
+            <div class="container-fluid">
+                <div class="row py-4 px-2">
+                    <div class="col-lg-6 pl-lg-5 pr-lg-4">
+                        <h1 class="font-dark-purple bold slab"><strong>Active Cities</strong></h1>
+                        <p>Click on a city below to request local listings, or list a property you&nbsp;own</p>
+                        <h2 class="py-1"><a href="./dfw.html">Dallas - Fort Worth</a></h2>
+                        <h2 class="py-1"><a href="./cape-cod.html">Cape Cod</a></h2>
+                        <h2 class="py-1"><a href="./la.html">Los Angeles</a></h2>
+                        <h2 class="py-1"><a href="./nyc.html">New York City</a></h2>
+                        <h2 class="py-1"><a href="./sd.html">San Diego</a></h2>
+                        <p>Don't see your city? We welcome volunteers to start a chapter in their own city. Email <a href="mailto:housing4frontlinehealth@gmail.com" target="_blank">housing4frontlinehealth@gmail.com</a> with "New City" in the subject line, and we will help you get started. You only need know how to use email and Google Forms to act as a city coordinator.</p>
+                    </div>
+                    <div class="col-lg-6 px-lg-5 py-lg-5">
+                        <img src="./img/nurse_illustration.png" class="img-fluid mx-auto" alt="Doctor holding n95 mask">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="faq">
+            <div class="container-fluid bg-light-purple py-4">
+                <div class="row px-2">
+                    <div class="col pl-lg-5">
+                        <h1 class="font-dark-purple bold slab">FAQ</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Column 1 -->
+                    <div class="col-lg-6 col-sm-12 pl-lg-5">
+                        <div class="faq-question py-2 pr-lg-3">
+                            <p><strong>Who runs this project?</strong></p>
+                            <p class="pr-lg-5">This initiative is entirely run by a volunteers, with a central leadership team and several local chapters.. It started out of a social media plea made by a front-line nurse in Victoria, BC who was unable to find alternate housing during the outbreak to keep her family safely distanced. Soon after, word spread to other cities, and new chapters continue to form.</p>
+                        </div>
+                        <div class="faq-question py-2 pr-lg-3">
+                            <p><strong>I'm not a healthcare worker, can I apply for housing?</strong></p>
+                            <p class="pr-lg-5">This service is primarily for healthcare workers who carry the highest risk of contracting COVID&#xfeff;-&#xfeff;19. However, we understand that all essential workers carry some risk and might be seeking temporary, low-cost housing. If you are concerned about exposing your household to COVID&#xfeff;-&#xfeff;19, we encourage you to&nbsp;apply.</p>
+                        </div>
+                        <div class="faq-question py-2 pr-lg-3">
+                            <p><strong>Can I email you to say thank you?</strong></p>
+                            <p class="pr-lg-5">Please refrain from any other communications to the email addresses provided to allow us to effectively administer requests and offers! If you like, you can share this link on social media and thank us there.</p>
+                        </div>
+
+                    </div>
+                    <!-- Column 2 -->
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="faq-question py-2 pr-lg-3">
+                            <p><strong>Why wouldn't I just use Craigslist or Airbnb?</strong></p>
+                            <p class="pr-lg-5">Unlike more general platforms, our service caters specifically to healthcare and other essential workers during the COVID&#xfeff;-&#xfeff;19 outbreak in Vancouver. We vet those who apply for housing to ensure their need is legitimate, so that low-cost housing offers are not taken advantage of.</p>
+                        </div>
+                        <div class="faq-question py-2 pr-lg-3">
+                            <p><strong>Can I contact you for media enquiries?</strong></p>
+                            <p class="pr-lg-5">Yes! For media enquiries, please email <a href="housing4frontlinehealth@gmail.com" target="_blank">housing4frontlinehealth@gmail.com</a> with "Media Inquiry" in the subject line.</p>
+                        </div>
+                        <div class="faq-question py-2 pr-lg-3">
+                            <p><strong>Can I start this in another city?</strong></p>
+                            <p class="pr-lg-5">Yes! Email <a href="housing4frontlinehealth@gmail.com" target="_blank">housing4frontlinehealth@gmail.com</a> with "New City" in the subject line, and we will help you get started. You only need know how to use email and Google Forms to act as a city coordinator.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    {% endblock %}
+    {% block footer %}
+    <!-- footer -->
+    <footer class="bg-dark-purple py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 mx-auto">
+                    <p class="font-white text-center">This healthworker housing project is a volunteer run initiative. Users of this site are responsible for doing their own due diligence and maintaining liability for any agreements entered.</p>
+                    <p class="font-white text-center">To start a housing initiative in your city, contact <a href="mailto:housing4frontlinehealth@gmail.com" target="_blank" class="mailto-dark">housing4frontlinehealth@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    {% endblock %}
+{% endblock %}

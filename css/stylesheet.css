@@ -1,5 +1,14 @@
+/* Global styles */
 html {
   scroll-behavior: smooth;
+}
+
+a {
+  color: #00b3ba;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /* Nabar */
@@ -10,7 +19,25 @@ html {
 
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc107;
+  color: #00b3ba;
+}
+
+/* Jumbotron */
+#landing {
+  background: #3f3286;
+  background: linear-gradient(180deg, #3f3286 0%, #642d9e 60%, #8f27ba 100%);
+}
+#landing h1 {
+  font-size: 4.5rem;
+}
+#landing .jumbotron {
+  background: rgba(0, 0, 0, 0);
+}
+#landing .lead {
+  max-width: 700px;
+}
+#landing button {
+  font-family: "Roboto Slab", "Georgia", "Times New Roman", serif;
 }
 
 /* Buttons */
@@ -29,13 +56,24 @@ html {
   border: 1px solid #8F27BA;
 }
 
+.btn-teal {
+  background-color: #00b3ba;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.btn-teal:hover {
+  background-color: #00C4CC;
+  color: #ffffff;
+}
+
 /* Backgrounds & Borders */
 .bg-white {
   background-color: #ffffff;
 }
 
 .bg-light-purple {
-  background-color: #f9f8ff;
+  background-color: #ece9ff;
 }
 
 .bg-vivid-purple {
@@ -58,14 +96,22 @@ html {
   border-bottom: 1px solid #3f3286;
 }
 
-.nurse-img {
-  width: 90%;
-  height: auto;
+/* Typography */
+.slab {
+  font-family: "Roboto Slab", "Georgia", "Times New Roman", serif;
 }
 
-/* Typography */
+.lato {
+  font-family: "Lato", "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 body {
   color: #4f4f4f;
+  font-family: "Lato", "Roboto", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h5 {
@@ -97,11 +143,23 @@ h3, h4 {
 }
 
 .mailto-dark:hover {
-  color: #ffc107;
+  color: #00b3ba;
 }
 
 footer {
   font-size: 0.8em;
+}
+
+/* Module specific styles */
+#cities h2 a:hover {
+  padding-left: 0.25em;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #landing h1 {
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

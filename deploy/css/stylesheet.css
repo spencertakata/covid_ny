@@ -156,10 +156,9 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  * #landing
-  *    h1
-  *        font-size: 2rem */
+  #landing h1 {
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

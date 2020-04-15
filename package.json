@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel deploy/*.html",
+    "build": "parcel build deploy/*.html --out-dir prod"
   },
   "author": "",
   "license": "ISC",
